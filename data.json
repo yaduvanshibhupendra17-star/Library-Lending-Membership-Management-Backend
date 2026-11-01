@@ -1,0 +1,25 @@
+{
+    "items": [
+        {
+            "type": "Book",
+            "item_id": " B201",
+            "title": "Python Basics",
+            "available": false
+        }
+    ],
+    "members": [
+        {
+            "type": "StudentMember",
+            "member_id": "M101",
+            "name": "Bhupendra",
+            "limit": 3
+        }
+    ],
+    "loans": {
+        " B201": {
+            "member_id": "M101",
+            "issue_date": "2026-11-01",
+            "due_date": "2026-11-15"
+        }
+    }
+}
